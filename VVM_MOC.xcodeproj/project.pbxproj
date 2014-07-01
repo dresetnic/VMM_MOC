@@ -21,6 +21,9 @@
 		8B865B051962A2AC00DA00A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B865AE71962A2AC00DA00A4 /* UIKit.framework */; };
 		8B865B0D1962A2AC00DA00A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B865B0B1962A2AC00DA00A4 /* InfoPlist.strings */; };
 		8B865B0F1962A2AC00DA00A4 /* VVM_MOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B865B0E1962A2AC00DA00A4 /* VVM_MOCTests.m */; };
+		8B865B2C1962F00400DA00A4 /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B865B231962EFC400DA00A4 /* libMailCore-ios.a */; };
+		8B865B2E1962F00E00DA00A4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B865B2D1962F00E00DA00A4 /* CFNetwork.framework */; };
+		8B865B351962F63B00DA00A4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B865B341962F63B00DA00A4 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +33,48 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8B865ADF1962A2AC00DA00A4;
 			remoteInfo = VVM_MOC;
+		};
+		8B865B201962EFC400DA00A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B865B181962EFC200DA00A4 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C64EA537169E772200778456;
+			remoteInfo = "static mailcore2 osx";
+		};
+		8B865B221962EFC400DA00A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B865B181962EFC200DA00A4 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6BA2C191705F4E6003F0E9E;
+			remoteInfo = "static mailcore2 ios";
+		};
+		8B865B241962EFC400DA00A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B865B181962EFC200DA00A4 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C64EA78C169F259200778456;
+			remoteInfo = tests;
+		};
+		8B865B261962EFC400DA00A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B865B181962EFC200DA00A4 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6A81B911706840C00882C15;
+			remoteInfo = "test-ios";
+		};
+		8B865B281962EFC400DA00A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B865B181962EFC200DA00A4 /* mailcore2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C6BD288D170BD71100A91AC1;
+			remoteInfo = "mailcore osx";
+		};
+		8B865B2A1962EFEA00DA00A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B865B181962EFC200DA00A4 /* mailcore2.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C6BA2B091705F4E6003F0E9E;
+			remoteInfo = "static mailcore2 ios";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,6 +98,9 @@
 		8B865B0A1962A2AC00DA00A4 /* VVM_MOCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VVM_MOCTests-Info.plist"; sourceTree = "<group>"; };
 		8B865B0C1962A2AC00DA00A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B865B0E1962A2AC00DA00A4 /* VVM_MOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVM_MOCTests.m; sourceTree = "<group>"; };
+		8B865B181962EFC200DA00A4 /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "../../../mailcore2-master/build-mac/mailcore2.xcodeproj"; sourceTree = "<group>"; };
+		8B865B2D1962F00E00DA00A4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8B865B341962F63B00DA00A4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +108,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B865B351962F63B00DA00A4 /* Security.framework in Frameworks */,
+				8B865B2E1962F00E00DA00A4 /* CFNetwork.framework in Frameworks */,
+				8B865B2C1962F00400DA00A4 /* libMailCore-ios.a in Frameworks */,
 				8B865AE61962A2AC00DA00A4 /* CoreGraphics.framework in Frameworks */,
 				8B865AE81962A2AC00DA00A4 /* UIKit.framework in Frameworks */,
 				8B865AE41962A2AC00DA00A4 /* Foundation.framework in Frameworks */,
@@ -101,6 +152,8 @@
 		8B865AE21962A2AC00DA00A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B865B341962F63B00DA00A4 /* Security.framework */,
+				8B865B2D1962F00E00DA00A4 /* CFNetwork.framework */,
 				8B865AE31962A2AC00DA00A4 /* Foundation.framework */,
 				8B865AE51962A2AC00DA00A4 /* CoreGraphics.framework */,
 				8B865AE71962A2AC00DA00A4 /* UIKit.framework */,
@@ -112,6 +165,7 @@
 		8B865AE91962A2AC00DA00A4 /* VVM_MOC */ = {
 			isa = PBXGroup;
 			children = (
+				8B865B181962EFC200DA00A4 /* mailcore2.xcodeproj */,
 				8B865AF21962A2AC00DA00A4 /* VMAppDelegate.h */,
 				8B865AF31962A2AC00DA00A4 /* VMAppDelegate.m */,
 				8B865AF51962A2AC00DA00A4 /* Main.storyboard */,
@@ -152,6 +206,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8B865B191962EFC200DA00A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B865B211962EFC400DA00A4 /* libMailCore.a */,
+				8B865B231962EFC400DA00A4 /* libMailCore-ios.a */,
+				8B865B251962EFC400DA00A4 /* tests */,
+				8B865B271962EFC400DA00A4 /* test-ios.app */,
+				8B865B291962EFC400DA00A4 /* MailCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,6 +232,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				8B865B2B1962EFEA00DA00A4 /* PBXTargetDependency */,
 			);
 			name = VVM_MOC;
 			productName = VVM_MOC;
@@ -216,6 +283,12 @@
 			mainGroup = 8B865AD71962A2AC00DA00A4;
 			productRefGroup = 8B865AE11962A2AC00DA00A4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8B865B191962EFC200DA00A4 /* Products */;
+					ProjectRef = 8B865B181962EFC200DA00A4 /* mailcore2.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8B865ADF1962A2AC00DA00A4 /* VVM_MOC */,
@@ -223,6 +296,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8B865B211962EFC400DA00A4 /* libMailCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMailCore.a;
+			remoteRef = 8B865B201962EFC400DA00A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8B865B231962EFC400DA00A4 /* libMailCore-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libMailCore-ios.a";
+			remoteRef = 8B865B221962EFC400DA00A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8B865B251962EFC400DA00A4 /* tests */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = tests;
+			remoteRef = 8B865B241962EFC400DA00A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8B865B271962EFC400DA00A4 /* test-ios.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "test-ios.app";
+			remoteRef = 8B865B261962EFC400DA00A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8B865B291962EFC400DA00A4 /* MailCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MailCore.framework;
+			remoteRef = 8B865B281962EFC400DA00A4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8B865ADE1962A2AC00DA00A4 /* Resources */ = {
@@ -271,6 +382,11 @@
 			isa = PBXTargetDependency;
 			target = 8B865ADF1962A2AC00DA00A4 /* VVM_MOC */;
 			targetProxy = 8B865B061962A2AC00DA00A4 /* PBXContainerItemProxy */;
+		};
+		8B865B2B1962EFEA00DA00A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "static mailcore2 ios";
+			targetProxy = 8B865B2A1962EFEA00DA00A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -379,9 +495,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VVM_MOC/VVM_MOC-Prefix.pch";
 				INFOPLIST_FILE = "VVM_MOC/VVM_MOC-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-licudata",
+					"-licui18n",
+					"-licuuc",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lz",
+					"-licucore",
+					"-lstdc++",
+					"-stdlib=libstdc++",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,9 +525,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VVM_MOC/VVM_MOC-Prefix.pch";
 				INFOPLIST_FILE = "VVM_MOC/VVM_MOC-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lctemplate-ios",
+					"-letpan-ios",
+					"-licudata",
+					"-licui18n",
+					"-licuuc",
+					"-lxml2",
+					"-lsasl2",
+					"-liconv",
+					"-ltidy",
+					"-lz",
+					"-licucore",
+					"-lstdc++",
+					"-stdlib=libstdc++",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -461,6 +611,7 @@
 				8B865B141962A2AC00DA00A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B865B151962A2AC00DA00A4 /* Build configuration list for PBXNativeTarget "VVM_MOCTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +620,7 @@
 				8B865B171962A2AC00DA00A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
