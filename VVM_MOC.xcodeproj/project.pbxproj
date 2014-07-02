@@ -24,6 +24,7 @@
 		8B865B2C1962F00400DA00A4 /* libMailCore-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B865B231962EFC400DA00A4 /* libMailCore-ios.a */; };
 		8B865B2E1962F00E00DA00A4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B865B2D1962F00E00DA00A4 /* CFNetwork.framework */; };
 		8B865B351962F63B00DA00A4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B865B341962F63B00DA00A4 /* Security.framework */; };
+		8BAF6EE61963E8C8006EC264 /* VMMailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAF6EE51963E8C8006EC264 /* VMMailCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,8 @@
 		8B865B181962EFC200DA00A4 /* mailcore2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = mailcore2.xcodeproj; path = "../../../mailcore2-master/build-mac/mailcore2.xcodeproj"; sourceTree = "<group>"; };
 		8B865B2D1962F00E00DA00A4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		8B865B341962F63B00DA00A4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8BAF6EE41963E8C8006EC264 /* VMMailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMMailCell.h; sourceTree = "<group>"; };
+		8BAF6EE51963E8C8006EC264 /* VMMailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMMailCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +176,8 @@
 				8B865AF91962A2AC00DA00A4 /* VMViewController.m */,
 				8B865AFB1962A2AC00DA00A4 /* Images.xcassets */,
 				8B865AEA1962A2AC00DA00A4 /* Supporting Files */,
+				8BAF6EE41963E8C8006EC264 /* VMMailCell.h */,
+				8BAF6EE51963E8C8006EC264 /* VMMailCell.m */,
 			);
 			path = VVM_MOC;
 			sourceTree = "<group>";
@@ -362,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B865AF01962A2AC00DA00A4 /* main.m in Sources */,
+				8BAF6EE61963E8C8006EC264 /* VMMailCell.m in Sources */,
 				8B865AFA1962A2AC00DA00A4 /* VMViewController.m in Sources */,
 				8B865AF41962A2AC00DA00A4 /* VMAppDelegate.m in Sources */,
 			);
