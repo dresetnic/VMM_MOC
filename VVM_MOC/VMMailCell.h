@@ -10,4 +10,6 @@
 
 @interface VMMailCell : UITableViewCell
 
+@property (strong, nonatomic) UIButton *playButton;
+
 @end

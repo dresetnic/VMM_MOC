@@ -15,6 +15,18 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         // Initialization code
+        
+    
+        
+        _playButton = [UIButton buttonWithType:UIButtonTypeSystem];
+        [_playButton setFrame: CGRectMake(14, 68, 35, 35)];
+        [_playButton setTintColor:[UIColor redColor]];
+        [_playButton setTitle:@"►" forState:UIControlStateNormal];
+        [[_playButton titleLabel] setFont:[UIFont boldSystemFontOfSize:20]];
+        [[_playButton layer] setBorderWidth:2];
+        [_playButton.layer setBorderColor:[UIColor redColor].CGColor];
+        [self.contentView addSubview:_playButton];
+        
     }
     return self;
 }
@@ -22,8 +34,6 @@
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
     [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
 }
 
 @end

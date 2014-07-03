@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B538FB2196593430005625C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B538FB1196593430005625C /* AVFoundation.framework */; };
 		8B865AE41962A2AC00DA00A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B865AE31962A2AC00DA00A4 /* Foundation.framework */; };
 		8B865AE61962A2AC00DA00A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B865AE51962A2AC00DA00A4 /* CoreGraphics.framework */; };
 		8B865AE81962A2AC00DA00A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B865AE71962A2AC00DA00A4 /* UIKit.framework */; };
@@ -80,6 +81,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B538FB1196593430005625C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		8B865AE01962A2AC00DA00A4 /* VVM_MOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVM_MOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B865AE31962A2AC00DA00A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8B865AE51962A2AC00DA00A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -111,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B538FB2196593430005625C /* AVFoundation.framework in Frameworks */,
 				8B865B351962F63B00DA00A4 /* Security.framework in Frameworks */,
 				8B865B2E1962F00E00DA00A4 /* CFNetwork.framework in Frameworks */,
 				8B865B2C1962F00400DA00A4 /* libMailCore-ios.a in Frameworks */,
@@ -155,6 +158,7 @@
 		8B865AE21962A2AC00DA00A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B538FB1196593430005625C /* AVFoundation.framework */,
 				8B865B341962F63B00DA00A4 /* Security.framework */,
 				8B865B2D1962F00E00DA00A4 /* CFNetwork.framework */,
 				8B865AE31962A2AC00DA00A4 /* Foundation.framework */,
