@@ -29,8 +29,6 @@
     _session = [[MCOIMAPSession alloc] init];
     [_session setHostname:@"imap.gmail.com"];
     [_session setPort:993];
-    [_session setUsername:@"developer.admatica@gmail.com"];
-    [_session setPassword:@"developeratadmatica"];
     [_session setConnectionType:MCOConnectionTypeTLS];
     
     MCOIMAPMessagesRequestKind requestKind = MCOIMAPMessagesRequestKindHeaders;
